@@ -59,7 +59,7 @@
 	-	If you are running Unix based OS, download .tgz file from 
 	https://www.python.org/downloads/release/python-2710/ to your desktop, open 
 	your command line and run the following commands in order:
-		cd Desktop
+		cd ~/Desktop
 		sudo apt-get install build-essential checkinstall
 		sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev 
 	libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev

@@ -1,7 +1,7 @@
 
 	IMAGE COMPARE
 	Author: Ozcan Ovunc
-        --------------------------------------------------------------------------------
+    --------------------------------------------------------------------------------
 	
 	-	This software gets image name's and crop amount in terms of pixel from
 	an input xml file, and compares them using ImageMagick software 
@@ -14,7 +14,7 @@
 	attached. (Works only with gmail and hotmail)
 	
 	Input xml attributes
-        --------------------
+    --------------------
 	-	Name = Name of the image file to be compared. <ResourceImage> and 
 	<GeneratedImage> have this.
 	-	Crop = Crop amount in terms of pixel. ONLY <ResourceImage> has this.
@@ -23,7 +23,7 @@
 	<GeneratedImage>'s has that attribute )
 	
 	Output xml attributes
-        --------------------
+    --------------------
 	-	Difference = Comparison results assigned to that attribute. ONLY 
 	<GeneratedImage> has this.
 	-	Error = If one of the source image does not exist, an error output's 
@@ -31,7 +31,7 @@
 	<GeneratedImage> may have this.
 
 	PREREQUISITES
-        --------------------------------------------------------------------------------
+    --------------------------------------------------------------------------------
 	-	ImageMagick software and Python 2.7.x MUST BE installed on your system. 
 	You can find detailed information on installation guide below.
 	-	This program, all image files and the input xml file MUST BE in the 
@@ -41,10 +41,10 @@
 	-	Input xml file MUST BE in given STRICT format.
 	
 	INSTALLATION GUIDE
-        --------------------------------------------------------------------------------
+    --------------------------------------------------------------------------------
 	
 	IMAGEMAGICK
-        --------------------	
+    --------------------	
 	-	If you are running Windows, you can download and install ImageMagick from:
 	http://www.imagemagick.org/download/binaries/ImageMagick-6.9.1-6-Q16-x64-dll.exe
 	-	If you are running Unix based OS, open the command line and run the 
@@ -53,7 +53,7 @@
 		sudo apt-get install -y imagemagick
 	
 	PYTHON 2.7.x
-        --------------------	
+    --------------------	
 	-	If you are running Windows, you can download and install Python 2.7.x to 
 	your C:\Python27 folder from: https://www.python.org/downloads/
 	-	If you are running Unix based OS, download .tgz file from 
@@ -69,7 +69,7 @@
 		make
 
 	SAMPLE XML INPUT
-        --------------------------------------------------------------------------------
+    --------------------------------------------------------------------------------
 	
 	<Images>
 		<ResourceImage Name="a.jpg" Crop="25">
@@ -82,7 +82,7 @@
 	</Images>
 
 	SAMPLE XML OUTPUT
-        --------------------------------------------------------------------------------
+    --------------------------------------------------------------------------------
  
 	<Images>
 		<ResourceImage Name="a.jpg" Crop="25">

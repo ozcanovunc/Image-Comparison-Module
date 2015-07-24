@@ -60,8 +60,8 @@
 	https://www.python.org/downloads/release/python-2710/ to your desktop, open 
 	your command line and run the following commands in order:
 		cd ~/Desktop
-		sudo apt-get install build-essential checkinstall
-		sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev 
+		sudo apt-get install -y build-essential checkinstall
+		sudo apt-get install -y libreadline-gplv2-dev libncursesw5-dev libssl-dev 
 	libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 		tar -xvf ".tgz file name here"
 		cd "New generated Python-2.7.x directory name here"

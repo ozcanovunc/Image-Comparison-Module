@@ -1,4 +1,3 @@
-
 import os, re, subprocess, platform, time, sys, smtplib, getpass
 from subprocess import Popen, PIPE
 from email.mime.multipart import MIMEMultipart

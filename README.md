@@ -45,9 +45,9 @@ your command line and run the following commands in order:
 	./configure
 	make
 ```
-FILES
+SAMPLE FILES
 ----------
-**SAMPLE XML INPUT**
+**INPUT XML**
 ```
 <Images>
 	<ResourceImage Name="a.jpg" Crop="25">
@@ -59,7 +59,7 @@ FILES
 	</ResourceImage>
 </Images>
 ```
-**SAMPLE XML OUTPUT**
+**OUTPUT XML**
 ```
 <Images>
 	<ResourceImage Name="a.jpg" Crop="25">

@@ -1,5 +1,5 @@
 
-	##IMAGE COMPARE
+	## IMAGE COMPARE(an <h1> tag)
 	Author: Ozcan Ovunc
     --------------------------------------------------------------------------------
 	

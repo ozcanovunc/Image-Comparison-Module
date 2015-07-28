@@ -16,10 +16,10 @@ Output xml attributes
 
 PREREQUISITES
 ----------
-- ImageMagick software and Python 2.7.x MUST BE installed on your system. You can find detailed information on installation guide below.
-- This program, all image files and the input xml file MUST BE in the same directory.
-- In each ResourceImage block, ResourceImage and GeneratedImage's extensions and dimensions MUST BE the same.
-- Input xml file MUST BE in given STRICT format.
+- ImageMagick software and Python 2.7.x **must be** installed on your system. You can find detailed information on installation guide below.
+- This program, all image files and the input xml file **must be** in the same directory.
+- In each ```<ResourceImage>``` block, ```<ResourceImage>``` and ```<GeneratedImage>```'s extensions and dimensions **must be** the same.
+- Input xml file **must be** in given **strict** format.
 
 INSTALLATION GUIDE
 ----------
@@ -28,9 +28,10 @@ IMAGEMAGICK
 
 - If you are running Windows, you can go [here](http://www.imagemagick.org/script/binary-releases.php) and under *Windows Binary Release* section, download the first *.exe* file and install it.
 - If you are running Unix based OS, open the command line and run the following commands in order:
+```
 	sudo apt-get -y update
 	sudo apt-get install -y imagemagick
-
+```
 PYTHON 2.7.x
 
 - If you are running Windows, you can download and install Python 2.7.x to 

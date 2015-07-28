@@ -47,7 +47,7 @@
     --------------------	
 	-	If you are running Windows, you can go this link: 
 	http://www.imagemagick.org/script/binary-releases.php and under "Windows Binary 
-	Release" section, download and install the first .exe file.
+	Release" section, download the first .exe file and install it.
 	-	If you are running Unix based OS, open the command line and run the 
 	following commands in order:
 		sudo apt-get -y update

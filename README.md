@@ -1,47 +1,38 @@
 IMAGE COMPARE
 ----------
-- This software gets image name's and crop amount in terms of pixel from an input xml file, and compares them using ImageMagick software  (with compare command) by given format and generates an output xml file.
+- This software gets image name's and crop amount in terms of pixel from a *.xml* file, and compares them using ImageMagick software  (with compare command) by given format and generates an output xml file.
 - Each <ResourceImage> is compared by each <GeneratedImage> belong to that block. Comparison process returns a number between 0 and 1. (1 means given two images are exactly the same) 
 - After the program is done with cropping and comparing, a mail is sent to a predefined email address with a detailed report, and output xml file attached. (Works only with gmail and hotmail)
 
 Input xml attributes
---------------------
+----------
 - Name = Name of the image file to be compared. <ResourceImage> and <GeneratedImage> have this.
 - Crop = Crop amount in terms of pixel. ONLY <ResourceImage> has this. <ResourceImage> and each <GeneratedImage> will be cropped by given pixel amount from top. (WARNING: Make sure that NONE of the <GeneratedImage>'s has that attribute )
 
 Output xml attributes
---------------------
-- Difference = Comparison results assigned to that attribute. ONLY 
-<GeneratedImage> has this.
-- Error = If one of the source image does not exist, an error output's 
-assigned into an attribute called Error. <ResourceImage> or 
-<GeneratedImage> may have this.
+----------
+- Difference = Comparison results assigned to that attribute. ONLY <GeneratedImage> has this.
+- Error = If one of the source image does not exist, an error output's assigned into an attribute called Error. <ResourceImage> or <GeneratedImage> may have this.
 
 PREREQUISITES
---------------------------------------------------------------------------------
-- ImageMagick software and Python 2.7.x MUST BE installed on your system. 
-You can find detailed information on installation guide below.
-- This program, all image files and the input xml file MUST BE in the 
-same directory.
-- In each ResourceImage block, ResourceImage and GeneratedImage's 
-extensions and dimensions MUST BE the same.
+----------
+- ImageMagick software and Python 2.7.x MUST BE installed on your system. You can find detailed information on installation guide below.
+- This program, all image files and the input xml file MUST BE in the same directory.
+- In each ResourceImage block, ResourceImage and GeneratedImage's extensions and dimensions MUST BE the same.
 - Input xml file MUST BE in given STRICT format.
 
 INSTALLATION GUIDE
---------------------------------------------------------------------------------
+----------
 
 IMAGEMAGICK
---------------------	
-- If you are running Windows, you can go this link: 
-http://www.imagemagick.org/script/binary-releases.php and under "Windows Binary 
-Release" section, download the first .exe file and install it.
-- If you are running Unix based OS, open the command line and run the 
-following commands in order:
+
+- If you are running Windows, you can go [here](http://www.imagemagick.org/script/binary-releases.php) and under *Windows Binary Release* section, download the first *.exe* file and install it.
+- If you are running Unix based OS, open the command line and run the following commands in order:
 	sudo apt-get -y update
 	sudo apt-get install -y imagemagick
 
 PYTHON 2.7.x
-------------------------------------------------------------	
+
 - If you are running Windows, you can download and install Python 2.7.x to 
 your C:\Python27 folder from [here](https://www.python.org/downloads/).
 - If you are running Unix based OS, download .tgz file from [here](https://www.python.org/downloads/release/python-2710/) to your desktop, open 
@@ -56,7 +47,7 @@ libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 	make
 
 SAMPLE XML INPUT
---------------------------------------------------------------------------------
+----------
 ```
 <Images>
 	<ResourceImage Name="a.jpg" Crop="25">
@@ -69,7 +60,7 @@ SAMPLE XML INPUT
 </Images>
 ```
 SAMPLE XML OUTPUT
---------------------------------------------------------------------------------
+----------
 ```
 <Images>
 	<ResourceImage Name="a.jpg" Crop="25">

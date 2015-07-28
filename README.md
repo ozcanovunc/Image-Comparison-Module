@@ -4,13 +4,11 @@ IMAGE COMPARE
 - Each <ResourceImage> is compared by each <GeneratedImage> belong to that block. Comparison process returns a number between 0 and 1. (1 means given two images are exactly the same) 
 - After the program is done with cropping and comparing, a mail is sent to a predefined email address with a detailed report, and the output file attached. *(Works with gmail and hotmail only)*
 
-Input xml attributes
-----------
+**Input xml attributes**
 - **Name:** Name of the image file to be compared. ```<ResourceImage>``` and ```<GeneratedImage>``` have this.
 - **Crop:** Crop amount in terms of pixel. **Only** ```<ResourceImage>``` has this. ```<ResourceImage>``` and each ```<GeneratedImage>``` will be cropped by given pixel amount from top. (**Warning:** Make sure that **none** of the ```<GeneratedImage>```'s have that attribute )
 
-Output xml attributes
-----------
+**Output xml attributes**
 - **Difference:** Comparison results assigned to that attribute. **Only** ```<GeneratedImage>``` has this.
 - **Error:** If one of the source image does not exist, an error output's assigned into an attribute called *Error*. ```<ResourceImage>``` or ```<GeneratedImage>``` may have this.
 
@@ -47,6 +45,8 @@ your command line and run the following commands in order:
 	./configure
 	make
 ```
+FILES
+----------
 **SAMPLE XML INPUT**
 ```
 <Images>

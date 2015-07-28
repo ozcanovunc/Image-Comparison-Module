@@ -45,8 +45,9 @@
 	
 	IMAGEMAGICK
     --------------------	
-	-	If you are running Windows, you can download and install ImageMagick from:
-	http://www.imagemagick.org/download/binaries/ImageMagick-6.9.1-6-Q16-x64-dll.exe
+	-	If you are running Windows, you can go this link: 
+	http://www.imagemagick.org/script/binary-releases.php and under "Windows Binary 
+	Release" section, download and install the first .exe file.
 	-	If you are running Unix based OS, open the command line and run the 
 	following commands in order:
 		sudo apt-get -y update

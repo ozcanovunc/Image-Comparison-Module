@@ -36,7 +36,7 @@ PYTHON 2.7.x
 
 - If you are running Windows, you can download and install Python 2.7.x to 
 your ```C:\Python27``` folder from [here](https://www.python.org/downloads/).
-- If you are running Unix based OS, download .tgz file from [here](https://www.python.org/downloads/release/python-2710/) to your desktop, open 
+- If you are running Unix based OS, download *.tgz* file from [here](https://www.python.org/downloads/release/python-2710/) to your desktop, open 
 your command line and run the following commands in order:
 ```
 	cd ~/Desktop

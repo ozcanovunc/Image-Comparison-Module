@@ -16,10 +16,10 @@ Output xml attributes
 
 PREREQUISITES
 ----------
-- ImageMagick software and Python 2.7.x **must be** installed on your system. You can find detailed information on installation guide below.
+- ImageMagick and Python 2.7.x **must be** installed on your system. You can find detailed information on installation guide below.
 - This program, all image files and the input xml file **must be** in the same directory.
 - In each ```<ResourceImage>``` block, ```<ResourceImage>``` and ```<GeneratedImage>```'s extensions and dimensions **must be** the same.
-- Input xml file **must be** in given **strict** format.
+- Input xml file **must be** in given strict format.
 
 INSTALLATION GUIDE
 ----------
@@ -35,18 +35,18 @@ IMAGEMAGICK
 PYTHON 2.7.x
 
 - If you are running Windows, you can download and install Python 2.7.x to 
-your C:\Python27 folder from [here](https://www.python.org/downloads/).
+your ```C:\Python27``` folder from [here](https://www.python.org/downloads/).
 - If you are running Unix based OS, download .tgz file from [here](https://www.python.org/downloads/release/python-2710/) to your desktop, open 
 your command line and run the following commands in order:
+```
 	cd ~/Desktop
 	sudo apt-get install -y build-essential checkinstall
-	sudo apt-get install -y libreadline-gplv2-dev libncursesw5-dev libssl-dev 
-libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-	tar -xvf ".tgz file name here"
-	cd "New generated Python-2.7.x directory name here"
+	sudo apt-get install -y libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+	tar -xvf ".tgz file name"
+	cd "Python-2.7.x directory name"
 	./configure
 	make
-
+```
 SAMPLE XML INPUT
 ----------
 ```

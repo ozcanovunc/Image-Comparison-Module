@@ -24,7 +24,7 @@ PREREQUISITES
 INSTALLATION GUIDE
 ----------
 
-IMAGEMAGICK
+**IMAGEMAGICK**
 
 - If you are running Windows, you can go [here](http://www.imagemagick.org/script/binary-releases.php) and under *Windows Binary Release* section, download the first *.exe* file and install it.
 - If you are running Unix based OS, open the command line and run the following commands in order:
@@ -32,7 +32,7 @@ IMAGEMAGICK
 	sudo apt-get -y update
 	sudo apt-get install -y imagemagick
 ```
-PYTHON 2.7.x
+**PYTHON 2.7.x**
 
 - If you are running Windows, you can download and install Python 2.7.x to 
 your ```C:\Python27``` folder from [here](https://www.python.org/downloads/).
@@ -47,8 +47,7 @@ your command line and run the following commands in order:
 	./configure
 	make
 ```
-SAMPLE XML INPUT
-----------
+**SAMPLE XML INPUT**
 ```
 <Images>
 	<ResourceImage Name="a.jpg" Crop="25">
@@ -60,8 +59,7 @@ SAMPLE XML INPUT
 	</ResourceImage>
 </Images>
 ```
-SAMPLE XML OUTPUT
-----------
+**SAMPLE XML OUTPUT**
 ```
 <Images>
 	<ResourceImage Name="a.jpg" Crop="25">

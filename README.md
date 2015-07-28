@@ -7,12 +7,12 @@ IMAGE COMPARE
 Input xml attributes
 ----------
 - **Name:** Name of the image file to be compared. ```<ResourceImage>``` and ```<GeneratedImage>``` have this.
-- **Crop:** Crop amount in terms of pixel. **Only** ```<ResourceImage>``` has this. ```<ResourceImage>``` and each ```<GeneratedImage>``` will be cropped by given pixel amount from top. (**Warning!** Make sure that **none** of the ```<GeneratedImage>```'s have that attribute )
+- **Crop:** Crop amount in terms of pixel. **Only** ```<ResourceImage>``` has this. ```<ResourceImage>``` and each ```<GeneratedImage>``` will be cropped by given pixel amount from top. (**Warning:** Make sure that **none** of the ```<GeneratedImage>```'s have that attribute )
 
 Output xml attributes
 ----------
-- Difference = Comparison results assigned to that attribute. ONLY <GeneratedImage> has this.
-- Error = If one of the source image does not exist, an error output's assigned into an attribute called Error. <ResourceImage> or <GeneratedImage> may have this.
+- **Difference:** Comparison results assigned to that attribute. **Only** ```<GeneratedImage>``` has this.
+- **Error:** If one of the source image does not exist, an error output's assigned into an attribute called *Error*. ```<ResourceImage>``` or ```<GeneratedImage>``` may have this.
 
 PREREQUISITES
 ----------

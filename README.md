@@ -2,7 +2,7 @@ IMAGE COMPARE
 ----------
 - This software gets image name's and crop amount in terms of pixel from a *.xml* file, and compares them using ImageMagick software  (with *compare* command) by given format and generates an *.xml* file.
 - Each <ResourceImage> is compared by each <GeneratedImage> belong to that block. Comparison process returns a number between 0 and 1. (1 means given two images are exactly the same) 
-- After the program is done with cropping and comparing, a mail is sent to a predefined email address with a detailed report, and the output file attached. *(Works with gmail and hotmail only)*
+- After the program is done with cropping and comparing, an e-mail is sent to a predefined email address with a detailed report, and the output file attached. *(Works with gmail and hotmail only)*
 
 **Input xml attributes**
 - **Name:** Name of the image file to be compared. ```<ResourceImage>``` and ```<GeneratedImage>``` have this.

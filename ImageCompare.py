@@ -188,8 +188,7 @@ def cropImages():
 
 				processCropCommand (generatedImage, crop)
 
-def main ():	
-		
+def main ():
 	# If the source file does not exist, terminate
 	if not fileExists (_fileInput):
 		print ("Source \"" + _fileInput + "\" does not exist!")
